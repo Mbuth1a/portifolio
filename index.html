@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#challenges">Lab Challenges</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="name">Peter Mbuthia</h1>
+                    <p class="tagline"> Bsc Applied Computing - Information Security & Forensics |
+                        Cloud & Network Security | Infrastructure Engineer | Full Stack Developer</p>
+                    <p class="intro">A passionate cybersecurity professional specializing in cloud and network security,
+                         infrastructure engineerw, and DevOps practices. 
+                         Experienced in building secure and scalable systems using PHP and python</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Peter Mbuthia - Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            
+            <div class="resume-grid">
+                <!-- Academic Background -->
+                <div class="resume-card">
+                    <h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+                    <div class="resume-item">
+                        <h4>BSc Applied Computing - Information Security & Forensics</h4>
+                        <p class="institution">KCAU University</p>
+                        <p class="year">2020 - 2024</p>
+                        <p class="description">Specialized in cybersecurity, digital forensics, and secure software development.</p>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="resume-card">
+                    <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                    <div class="resume-item">
+                        <h4>ICT Intern</h4>
+                        <p class="institution">Danco Limited</p>
+                        <p class="year">2024 - 2025</p>
+                        <ul class="responsibilities">
+                            <li>Developed a logistics system</li>
+                            <li>Network security </li>
+                            <li>IT Support and Maintenance</li>
+                            <li>Data Backup</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <!-- Certifications -->
+                <div class="resume-card">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="certification-item">
+                        <h4>Fullstack Development & AWS</h4>
+                        <p class="issuer">ZALEGO ACADEMY</p>
+                        <p class="year">2022</p>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Python for Data Science and Web Development</h4>
+                        <p class="issuer">KCAU University</p>
+                        <p class="year">2024</p>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Cloud and Network Security</h4>
+                        <p class="issuer">CYBER SHUJAA</p>
+                        <p class="year">2026</p>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="resume-card">
+                    <h3><i class="fas fa-tools"></i> Skills</h3>
+                    <div class="skills-container">
+                        <span class="skill-tag">Cloud Security</span>
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Infrastructure Security</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Javascript</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Docker (Junior)</span>
+                        <span class="skill-tag">CI/CD (Junior)</span>
+                        <span class="skill-tag">Kubernetes (Junior)</span>
+                        <span class="skill-tag">DevSecOps (Junior)</span>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Showcasing my technical work and academic projects</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Funeral Management System</h3>
+                        <p class="project-category">Web Application</p>
+                        <p class="project-description">A comprehensive system for managing funeral services, bookings, and administrative tasks.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Mbuth1a/Funeral-Management-System-Django-" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Logistics System</h3>
+                        <p class="project-category">Web Application</p>
+                        <p class="project-description">A logistics management platform for tracking shipments, managing inventory, and optimizing delivery routes in the company.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>Django</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                            <span>Github</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Mbuth1a/Logistics-System-Django-" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Job Application Portal</h3>
+                        <p class="project-category">Web Application</p>
+                        <p class="project-description">A role based job application portal for recruiters 
+                                                       and job seekers built with Python,
+                                                       HTML, and JavaScript is a web-based platform that connects employers with 
+                                                       potential candidates in a centralized digital environment.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>Github</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Mbuth1a/Job-Application-Portal" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lab Challenges Section -->
+    <section id="challenges" class="challenges">
+        <div class="container">
+            <h2 class="section-title">Lab Challenges</h2>
+            <p class="section-subtitle">CTF challenges and security labs I've completed</p>
+            
+            <div class="challenges-grid">
+                <!-- Challenge 1 -->
+                <div class="challenge-card">
+                    <div class="challenge-header">
+                        <h3>Challenge Name 1</h3>
+                        <span class="difficulty easy">Easy</span>
+                    </div>
+                    <div class="challenge-content">
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-flag"></i> Problem Statement</h4>
+                            <p>Describe the problem or challenge presented in the lab.</p>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-lightbulb"></i> Approach</h4>
+                            <p>Explain the methodology and steps taken to solve the challenge.</p>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-wrench"></i> Tools Used</h4>
+                            <div class="tools-used">
+                                <span>Tool 1</span>
+                                <span>Tool 2</span>
+                                <span>Tool 3</span>
+                            </div>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-camera"></i> Screenshots</h4>
+                            <div class="screenshot-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Add screenshot here</p>
+                            </div>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-book"></i> Key Lessons Learned</h4>
+                            <ul>
+                                <li>Lesson 1 from this challenge</li>
+                                <li>Lesson 2 from this challenge</li>
+                                <li>Lesson 3 from this challenge</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Challenge 2 -->
+                <div class="challenge-card">
+                    <div class="challenge-header">
+                        <h3>Challenge Name 2</h3>
+                        <span class="difficulty medium">Medium</span>
+                    </div>
+                    <div class="challenge-content">
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-flag"></i> Problem Statement</h4>
+                            <p>Describe the problem or challenge presented in the lab.</p>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-lightbulb"></i> Approach</h4>
+                            <p>Explain the methodology and steps taken to solve the challenge.</p>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-wrench"></i> Tools Used</h4>
+                            <div class="tools-used">
+                                <span>Tool 1</span>
+                                <span>Tool 2</span>
+                                <span>Tool 3</span>
+                            </div>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-camera"></i> Screenshots</h4>
+                            <div class="screenshot-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Add screenshot here</p>
+                            </div>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-book"></i> Key Lessons Learned</h4>
+                            <ul>
+                                <li>Lesson 1 from this challenge</li>
+                                <li>Lesson 2 from this challenge</li>
+                                <li>Lesson 3 from this challenge</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Challenge 3 -->
+                <div class="challenge-card">
+                    <div class="challenge-header">
+                        <h3>Challenge Name 3</h3>
+                        <span class="difficulty hard">Hard</span>
+                    </div>
+                    <div class="challenge-content">
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-flag"></i> Problem Statement</h4>
+                            <p>Describe the problem or challenge presented in the lab.</p>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-lightbulb"></i> Approach</h4>
+                            <p>Explain the methodology and steps taken to solve the challenge.</p>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-wrench"></i> Tools Used</h4>
+                            <div class="tools-used">
+                                <span>Tool 1</span>
+                                <span>Tool 2</span>
+                                <span>Tool 3</span>
+                            </div>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-camera"></i> Screenshots</h4>
+                            <div class="screenshot-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Add screenshot here</p>
+                            </div>
+                        </div>
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-book"></i> Key Lessons Learned</h4>
+                            <ul>
+                                <li>Lesson 1 from this challenge</li>
+                                <li>Lesson 2 from this challenge</li>
+                                <li>Lesson 3 from this challenge</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Let's connect and collaborate</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 234 567 8900</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>City, Country</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link linkedin" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link github" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link twitter" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link instagram" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                
+                <a href="mailto:your.email@example.com" class="btn btn-primary">Send Message</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
