@@ -4,8 +4,7 @@ if (profileImage) {
     profileImage.addEventListener('load', function() {
         this.classList.add('loaded');
     });
-    
-    // Fallback: If image is already loaded (from cache)
+    // If image is already cached and loaded
     if (profileImage.complete) {
         profileImage.classList.add('loaded');
     }

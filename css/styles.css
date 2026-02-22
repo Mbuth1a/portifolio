@@ -1,14 +1,14 @@
 /* CSS Variables */
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #3b82f6;
-    --dark-bg: #0f172a;
-    --card-bg: #1e293b;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
-    --gradient: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+    --primary-color: #22C55E;
+    --secondary-color: #16A34A;
+    --accent-color: #22C55E;
+    --dark-bg: #0F172A;
+    --card-bg: #1E293B;
+    --text-primary: #E5E7EB;
+    --text-secondary: #9CA3AF;
+    --text-muted: #6B7280;
+    --gradient: linear-gradient(135deg, #22C55E 0%, #16A34A 100%);
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     --transition: all 0.3s ease;
 }
@@ -696,10 +696,9 @@ footer p {
         order: -1;
     }
 
-    .image-placeholder {
+    .profile-image {
         width: 250px;
         height: 250px;
-        font-size: 5rem;
     }
 
     .resume-grid {
