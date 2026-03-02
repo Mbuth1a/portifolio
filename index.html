@@ -37,8 +37,8 @@
                     <p class="tagline"> Bsc Applied Computing - Information Security & Forensics |
                         Cloud & Network Security | Infrastructure Engineer | Full Stack Developer</p>
                     <p class="intro">A passionate cybersecurity professional specializing in cloud and network security,
-                         infrastructure engineerw, and DevOps practices. 
-                         Experienced in building secure and scalable systems using PHP and python</p>
+                         infrastructure engineer, and DevOps practices. 
+                         Experienced in building secure and scalable systems using PHP, Python and Javascript.</p>
                     <div class="cta-buttons">
                         <a href="#projects" class="btn btn-primary">View My Work</a>
                         <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -62,7 +62,7 @@
                     <h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
                     <div class="resume-item">
                         <h4>BSc Applied Computing - Information Security & Forensics</h4>
-                        <p class="institution">KCAU University</p>
+                        <p class="institution">KCA University</p>
                         <p class="year">2020 - 2024</p>
                         <p class="description">Specialized in cybersecurity, digital forensics, and secure software development.</p>
                     </div>
@@ -139,7 +139,7 @@
 <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/profile.jpg" alt="Funeral Management System">
+                        <img src="images/funeral.jpg" alt="Funeral Management System">
                     </div>
                     <div class="project-content">
                         <h3>Funeral Management System</h3>
@@ -149,10 +149,12 @@
                             <span>Python</span>
                             <span>Django</span>
                             <span>HTML/CSS</span>
+                            <span>Github</span>
+                            <span>MySQL</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/Mbuth1a/Funeral-Management-System-Django-" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class=""></i> </a>
                         </div>
                     </div>
                 </div>
@@ -160,7 +162,7 @@
 <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/profile.jpg" alt="Logistics System">
+                        <img src="images/logu.jpg" alt="Logistics System">
                     </div>
                     <div class="project-content">
                         <h3>Logistics System</h3>
@@ -176,7 +178,7 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/Mbuth1a/-Logistics-System-Django-" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class=""></i></a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +186,7 @@
 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/profile.jpg" alt="Job Application Portal">
+                        <img src="images/download.jpg" alt="Job Application Portal">
                     </div>
                     <div class="project-content">
                         <h3>Job Application Portal</h3>
@@ -202,7 +204,7 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/Mbuth1a/Job-Application-Portal" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class=""></i></a>
                         </div>
                     </div>
                 </div>
@@ -220,39 +222,47 @@
                 <!-- Challenge 1 -->
                 <div class="challenge-card">
                     <div class="challenge-header">
-                        <h3>Challenge Name 1</h3>
+                        <h3>Configure and Verify a Site-to-Site IPsec VPN using CLI</h3>
                         <span class="difficulty easy">Easy</span>
                     </div>
                     <div class="challenge-content">
                         <div class="challenge-section">
                             <h4><i class="fas fa-flag"></i> Problem Statement</h4>
-                            <p>Describe the problem or challenge presented in the lab.</p>
+                            <p>Configure R1 and R3 routers to establish a site-to-site IPsec VPN tunnel 
+                               for secure communication between their LANs through R2.</p>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-lightbulb"></i> Approach</h4>
-                            <p>Explain the methodology and steps taken to solve the challenge.</p>
+                            <p>I started by analyzing the network topology and identifying the routers involved (R1, R2, R3). 
+                                Then I configured ISAKMP (IKE) policies on both R1 and R3 to establish the VPN tunnel. 
+                                Next, I created transform sets to define the encryption and hash algorithms. 
+                                I configured crypto maps to bind the ISAKMP policies with the tunnel endpoints. 
+                                Finally, I applied the crypto maps to the router interfaces and verified the VPN tunnel status.</p>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-wrench"></i> Tools Used</h4>
                             <div class="tools-used">
-                                <span>Tool 1</span>
-                                <span>Tool 2</span>
-                                <span>Tool 3</span>
+                                <span>Cisco IOS CLI</span>
+                                <span>Wireshark</span>
+                                <span>Ping</span>
+                                <span>Show Commands</span>
                             </div>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-camera"></i> Screenshots</h4>
-                            <div class="screenshot-placeholder">
-                                <i class="fas fa-image"></i>
-                                <p>Add screenshot here</p>
+                            <div class="screenshot-gallery">
+                                <img src="images/profile.jpg" alt="VPN Configuration Screenshot 1" class="challenge-screenshot">
+                                <img src="images/vpn11.png" alt="VPN Configuration Screenshot 2" class="challenge-screenshot">
+                                <img src="images/vpn17.png" alt="VPN Configuration Screenshot 3" class="challenge-screenshot">
                             </div>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-book"></i> Key Lessons Learned</h4>
                             <ul>
-                                <li>Lesson 1 from this challenge</li>
-                                <li>Lesson 2 from this challenge</li>
-                                <li>Lesson 3 from this challenge</li>
+                                <li>Understanding the difference between IKEv1 and IKEv2 protocols for VPN establishment</li>
+                                <li>Learning how to configure transform sets for encryption (ESP) and authentication (SHA/HMAC)</li>
+                                <li>Troubleshooting VPN tunnels using show commands and debug outputs</li>
+                                <li>Understanding the role of NAT traversal in IPsec VPN configuration</li>
                             </ul>
                         </div>
                     </div>
@@ -261,39 +271,47 @@
                 <!-- Challenge 2 -->
                 <div class="challenge-card">
                     <div class="challenge-header">
-                        <h3>Challenge Name 2</h3>
+                        <h3>Switch Security Configuration</h3>
                         <span class="difficulty medium">Medium</span>
                     </div>
                     <div class="challenge-content">
                         <div class="challenge-section">
                             <h4><i class="fas fa-flag"></i> Problem Statement</h4>
-                            <p>Describe the problem or challenge presented in the lab.</p>
+                            <p>Configure VLANs on switches and implement switch security features 
+                               including port security, DHCP snooping, and ARP inspection.</p>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-lightbulb"></i> Approach</h4>
-                            <p>Explain the methodology and steps taken to solve the challenge.</p>
+                            <p>I began by creating and configuring VLANs on the switches to segment network traffic. 
+                                Then I configured VLAN trunking protocol (VTP) for VLAN information exchange between switches. 
+                                Next, I implemented port security features including MAC address limiting and violation actions. 
+                                I configured DHCP snooping to prevent rogue DHCP servers and enabled Dynamic ARP Inspection (DAI). 
+                                Finally, I tested the security configurations by attempting various attacks and verifying the defenses.</p>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-wrench"></i> Tools Used</h4>
                             <div class="tools-used">
-                                <span>Tool 1</span>
-                                <span>Tool 2</span>
-                                <span>Tool 3</span>
+                                <span>Cisco Packet Tracer</span>
+                                <span>Ping</span>
+                                <span>Show Commands</span>
+                                <span>CLI</span>
                             </div>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-camera"></i> Screenshots</h4>
-                            <div class="screenshot-placeholder">
-                                <i class="fas fa-image"></i>
-                                <p>Add screenshot here</p>
+                            <div class="screenshot-gallery">
+                                <img src="images/profile.jpg" alt="Switch Security Screenshot 1" class="challenge-screenshot">
+                                <img src="images/profile.jpg" alt="Switch Security Screenshot 2" class="challenge-screenshot">
+                                <img src="images/ASA20.png" alt="Switch Security Screenshot 3" class="challenge-screenshot">
                             </div>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-book"></i> Key Lessons Learned</h4>
                             <ul>
-                                <li>Lesson 1 from this challenge</li>
-                                <li>Lesson 2 from this challenge</li>
-                                <li>Lesson 3 from this challenge</li>
+                                <li>Learning how to properly configure VLANs and trunk ports for network segmentation</li>
+                                <li>Implementing port security to prevent unauthorized access and MAC address spoofing</li>
+                                <li>Understanding DHCP snooping to protect against DHCP starvation attacks</li>
+                                <li>Configuring Dynamic ARP Inspection to prevent ARP spoofing and man-in-the-middle attacks</li>
                             </ul>
                         </div>
                     </div>
@@ -302,39 +320,50 @@
                 <!-- Challenge 3 -->
                 <div class="challenge-card">
                     <div class="challenge-header">
-                        <h3>Challenge Name 3</h3>
+                        <h3>Configure ASA Basic Settings and Firewall Using the CLI</h3>
                         <span class="difficulty hard">Hard</span>
                     </div>
                     <div class="challenge-content">
                         <div class="challenge-section">
                             <h4><i class="fas fa-flag"></i> Problem Statement</h4>
-                            <p>Describe the problem or challenge presented in the lab.</p>
+                            <p>Configure Cisco ASA with basic settings, NAT/PAT, access lists, and DHCP 
+                               to secure the corporate network and DMZ from the ISP.</p>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-lightbulb"></i> Approach</h4>
-                            <p>Explain the methodology and steps taken to solve the challenge.</p>
+                            <p>I started by configuring basic ASA settings including hostname, domain name, and clock settings. 
+                                Then I configured interfaces with appropriate security levels and IP addresses. 
+                                Next, I set up NAT/PAT to translate internal private addresses to public IPs. 
+                                I configured access lists to allow specific traffic flows between zones (inside, DMZ, outside). 
+                                I implemented DHCP services for internal hosts and set up remote management access. 
+                                Finally, I tested all connectivity and security policies to ensure proper operation.</p>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-wrench"></i> Tools Used</h4>
                             <div class="tools-used">
-                                <span>Tool 1</span>
-                                <span>Tool 2</span>
-                                <span>Tool 3</span>
+                                <span>Cisco ASA CLI</span>
+                                <span>Packet Tracer</span>
+                                <span>Ping</span>
+                                <span>Show Commands</span>
+                                <span>Telnet/SSH</span>
                             </div>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-camera"></i> Screenshots</h4>
-                            <div class="screenshot-placeholder">
-                                <i class="fas fa-image"></i>
-                                <p>Add screenshot here</p>
+                            <div class="screenshot-gallery">
+                                <img src="images/ASA1.png" alt="ASA Configuration Screenshot 1" class="challenge-screenshot">
+                                <img src="images/ASA12.png" alt="ASA Configuration Screenshot 2" class="challenge-screenshot">
+                                <img src="images/ASA20.png" alt="ASA Configuration Screenshot 3" class="challenge-screenshot">
                             </div>
                         </div>
                         <div class="challenge-section">
                             <h4><i class="fas fa-book"></i> Key Lessons Learned</h4>
                             <ul>
-                                <li>Lesson 1 from this challenge</li>
-                                <li>Lesson 2 from this challenge</li>
-                                <li>Lesson 3 from this challenge</li>
+                                <li>Understanding ASA security zones and interface security levels</li>
+                                <li>Learning NAT/PAT configuration for address translation</li>
+                                <li>Implementing access control lists (ACLs) for firewall policies</li>
+                                <li>Configuring DHCP services and remote management access on ASA</li>
+                                <li>Troubleshooting connectivity issues through ASA</li>
                             </ul>
                         </div>
                     </div>
@@ -375,10 +404,10 @@
                 </div>
                 
                 <div class="social-links">
-                    <a href="#" class="social-link linkedin" title="LinkedIn">
+                    <a href="https://www.linkedin.com/in/peter-mbuthia-" class="social-link linkedin" title="LinkedIn" target="_blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="#" class="social-link github" title="GitHub">
+                    <a href="https://github.com/Mbuth1a" class="social-link github" title="GitHub">
                         <i class="fab fa-github"></i>
                     </a>
                     

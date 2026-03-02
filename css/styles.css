@@ -572,6 +572,40 @@ section {
     display: block;
 }
 
+/* Screenshot Gallery */
+.screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.challenge-screenshot {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: var(--transition);
+    background: var(--card-bg);
+}
+
+.challenge-screenshot:hover {
+    transform: scale(1.05);
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3);
+}
+
+@media (max-width: 768px) {
+    .screenshot-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .challenge-screenshot {
+        height: 100px;
+    }
+}
+
 /* Contact Section */
 .contact {
     background: rgba(30, 41, 59, 0.5);
